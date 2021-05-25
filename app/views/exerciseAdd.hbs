@@ -1,0 +1,45 @@
+<script defer src="/javascripts/exerciseListGenerator.js"></script>
+
+<div class="temporaryFormDisplay">THE EXERCISE LIST IS BEING LOADED</div>
+
+<div class="exerciseForm">
+	<form method="POST" action="/{{ day }}/add">
+		<div>
+			<label for="exerciseName">EXERCISE NAME</label>
+
+			<input type="text" required placeholder="Required" list="exercisesEntryList" name="exerciseName" value="">
+
+			<datalist id="exercisesEntryList"></datalist>
+		</div>
+		
+		<br>
+
+		<div>
+			<label for="exerciseWeight">EXERCISE WEIGHT (KG)</label>
+
+			<input type="number" min="0" placeholder="Required - Increments of 0.01" step="0.01" required name="exerciseWeight">
+		</div>
+		
+		<br>
+
+		<div>
+			<label for="exerciseSets">NUMBER OF SETS</label>
+
+			<input type="number" min="0" placeholder="Required" required name="exerciseSets">
+		</div>
+		
+		<br>
+
+		<div>
+			<label for="exerciseReps">NUMBER OF REPS</label>
+
+			<input type="number" min="0" placeholder="Required" required name="exerciseReps">
+		</div>
+		
+		<br>
+
+		<div>
+			<input type="submit" value="ADD EXERCISE">
+		</div>
+	</form>
+</div>
