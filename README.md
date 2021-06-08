@@ -136,46 +136,6 @@ Here is a screenshot of the sitemap I made on the website:
 * Exercises Checklist:
     * Keep track of the exercises you have done and/or failed during a workout
     * Radio buttons might be used to track what exercise has been done on each day
-
-## Research Topics
-
-Total (Potential) Points Value: 11 Points (Maximum Cap of 8 Points)
-
-* [4 Points] Deployment on Alternate Server(s):
-    * Deploy application on an external server different from Courant's servers
-    * Provides longer lifetime of project
-    * Heroku and MondoDB Atlas used for external deployment
-    * Relevant Implementation:
-        * Application deployed at <code>https://handlebars-fitness-tracker.herokuapp.com/</code>
-        * Proof of server usage in the form of a <code>[screenshot](./documentation/herokuDashboard/herokuDashboard.PNG)</code>
-* [3 Points] User Authentication:-
-    * User authentication helps with "session-preservation"
-    * Will help increase security and/or privacy of data
-    * Sample account, together with the password, wil be sent to the graders
-    * Passport.js to be used for implementation
-    * Relevant implementation: 
-        * Registration page at <code>https://handlebars-fitness-tracker.herokuapp.com/register</code>
-        * Login page at <code>https://handlebars-fitness-tracker.herokuapp.com/login</code>
-* [2 Points] Wrapper To Exercises API:
-    * Access database of exercises
-    * Provides easier searches for exercises
-    * Use established open-source API by "wger Workout Manager" to access exercises
-    * Relevant Implementation:
-        * Exercises database used at <code>https://handlebars-fitness-tracker.herokuapp.com/data/exercises</code>
-* [1 Point] Router(s):-
-    * Code logic to be broken up for different types of routes
-    * Makes later configuration and editing of website easier
-    * Express to be used for implementation
-    * Relevant implementation:
-        * Relevant routers found in the "<code>[authenticationRoutes.js](./app/routes/authenticationRoutes.js)</code>", "<code>[databaseRoutes.js](./app/routes/databaseRoutes.js)</code>", "<code>[dayRoutes.js](./app/routes/dayRoutes.js)</code>",  "<code>[exerciseAddRoutes.js](./app/routes/exerciseAddRoutes.js)</code>", and "<code>[exerciseEditRoutes.js](./app/routes/exerciseEditRoutes.js)</code>" files
-* [1 Point] Additional MongoDB CRUD Operations:-
-    * Provide functionality of editing and/or deleting documents
-    * Need to be able to update data for the user
-    * MongoDB's in-built features to be integrated into webpage through Mongoose
-    * Relevant Implementation:
-        * Route with editing capability found in the "<code>[exerciseEditRoutes.js](./app/routes/exerciseEditRoutes.js)</code>" file
-        * Route with deletion capability found in the "<code>[dayRoutes.js](./app/routes/dayRoutes.js)</code>" file
-
 ## Annotations/References
 
 1. [Passport.js Documentation](http://passportjs.org/docs) - <code>[Express Application using Passport](./app.js)</code>
