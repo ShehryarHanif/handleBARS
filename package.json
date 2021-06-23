@@ -1,8 +1,8 @@
 {
-  "name": "shehryarhanif-final-project",
+  "name": "handlebars-gym-tracker",
   "version": "1.0.0",
-  "description": "* Travel Site\r * Course Review Site\r * Fitness Tracker\r * Food Logger\r * Chat app\r * QA Engine\r * Forum engine\r * Github client",
-  "main": "src/app.js",
+  "description": "Gym tracker",
+  "main": "app.js",
   "dependencies": {
     "chart": "^0.1.2",
     "chart.js": "^2.9.4",
@@ -31,12 +31,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nyu-csci-ua-0480-034-spring-2021/ShehryarHanif-final-project.git"
+    "url": "git+https://github.com/ShehryarHanif/handleBARS.git"
   },
   "author": "ShehryarHanif",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/nyu-csci-ua-0480-034-spring-2021/ShehryarHanif-final-project/issues"
-  },
-  "homepage": "https://github.com/nyu-csci-ua-0480-034-spring-2021/ShehryarHanif-final-project#readme"
+  "homepage": "https://github.com/ShehryarHanif/handleBARS#readme"
 }
