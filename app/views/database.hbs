@@ -1,0 +1,29 @@
+<script defer src="/javascripts/database.js"></script>
+
+<div class="exercisesDisclaimer">
+    SOURCE OF DATA: <a href="https://wger.de/en/software/api" target="_blank">wger Workout Manager</a></div>
+</div>
+
+<div class="temporaryExercisesDisplay">THE DATABASE IS BEING LOADED</div>
+
+<div class="selectionContainer">
+    <div class="buttonContainer">
+        <div class="muscleContainer">
+            <input type="text" name="muscleFilter" id="muscleFilter" placeholder="SELECT MUSCLE GROUP" list="musclesList">
+
+            <datalist id="musclesList"></datalist>
+        </div>
+
+        <div class="equipmentContainer">
+            <input type="text" name="equipmentFilter" id="equipmentFilter" placeholder="SELECT EQUIPMENT (&quot;NONE&quot; FOR NOTHING)" list="equipmentList">
+
+            <datalist id="equipmentList"></datalist>
+        </div>
+    </div>
+
+    <div class="filterContainer">
+        <input class="filterButton" type="submit" value="FILTER">
+    </div>
+</div>
+
+<div class="databaseContainer"></div>

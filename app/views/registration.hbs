@@ -1,0 +1,37 @@
+{{#if error}}
+	<div class="alert alert-danger error">
+		<strong>{{ error }}</strong>
+	</div>
+{{/if}}
+
+<div class="authenticationForm">
+	<form method="POST" action="/register">
+		<div>
+			<label for="username">USERNAME</label>
+
+			<input type="text" required name="username" value="" minlength="8" placeholder="Required - 8+ Length">
+		</div>
+
+		<br>
+
+		<div>
+			<label for="email">EMAIL</label>
+
+			<input type="email" required name="email" value="" placeholder="Required">
+		</div>
+
+		<br>
+
+		<div>
+			<label for="password">PASSWORD</label>
+
+			<input type="password" required name="password" value="" minlength="8" placeholder="Required - 8+ Length">
+		</div>
+
+		<br>
+
+		<div>
+			<input type="submit" value="REGISTER">
+		</div>
+	</form>
+</div>

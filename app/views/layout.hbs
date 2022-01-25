@@ -1,0 +1,68 @@
+<!doctype html>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+
+        <link rel="icon" href="/images/websiteFavicon.png" type="image/x-icon">
+
+		<title>handleBARS</title>
+
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500&display=swap" rel="stylesheet">
+
+        <link rel = "stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+        <script src = "https://kit.fontawesome.com/0de97afa2d.js" crossorigin = "anonymous"> </script>
+		
+		<link rel="stylesheet" href="/css/style.css" type="text/css" media="screen" title="no title" charset="utf-8">
+	</head>
+
+	<body>
+		<header>
+            <nav id="mainNavBar" class="navbar navbar-dark navbar-expand-md py-0">
+				<img class="pull-left websiteLogo" src="/images/websiteLogo.png">
+
+                <div class="navbar-brand"><a href="/" class="special-nav-link">handleBARS</a></div>
+
+                <div class="navbar-collapse" id="navLinks">
+					{{!--
+					{{#if user}}
+						<ul class="navbar-nav">
+							<li class="nav-item"><a href="/data/exercises" class="nav-link">Exercises Database</a></li>
+						</ul>
+					{{/if}}
+					--}}
+
+					<ul class="navbar-nav">
+						<li class="nav-item"><a href="/data/exercises" class="nav-link">Exercises Database</a></li>
+					</ul>
+
+					{{#if user}}
+						<ul class="navbar-nav ml-auto">
+							<li class="nav-item navbarUsername">{{user.username}}</li>
+						</ul>
+
+						<ul class="navbar-nav">
+							<li class="nav-item"><a href="/logout" class="nav-link">Log Out</a></li>
+						</ul>
+					{{else}}
+						<ul class="navbar-nav ml-auto">
+							<li class="nav-item"><a href="/register" class="nav-link">Register</a></li>
+						</ul>
+						<ul class="navbar-nav">
+							<li class="nav-item"><a href="/login" class="nav-link">Log In</a></li>
+						</ul>
+					{{/if}}
+				</div>
+            </nav>
+        </header>
+
+		{{{ body }}}
+
+		<div class="footer">
+			<a href="https://github.com/ShehryarHanif/handleBars" class="fa fa-github" target="_blank"></a>
+		</div>
+
+	</body>
+</html>

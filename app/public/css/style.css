@@ -1,0 +1,460 @@
+/* General Stylings */
+
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    background: whitesmoke;
+    margin: auto;
+    width: 100%;
+}
+
+/* Navigation Bar */
+
+#mainNavBar{
+    background:forestgreen;
+    font-size: 1rem;
+    font-weight: 300;
+    color: white;
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+    z-index: 10;
+}
+
+.websiteLogo{
+    width: auto;
+    height: 25px;
+    margin-right: 20px;
+}
+
+.navbar-brand{
+    float: left;
+}
+
+.navbar-brand .special-nav-link{
+    color: white;
+    font-size: 1.6rem;
+}
+
+.navbar-brand .special-nav-link:hover{
+    color: black;
+    font-size: 1.6rem;
+    text-decoration: none;
+}
+
+#navLinks{
+    float: right;
+}
+#navLinks .navbar-nav{
+    text-align: right;
+    color: black;
+    display: block;
+    right: 0;
+}
+
+#navLinks .nav-link:hover{
+    color: black;
+    text-decoration: none;
+}
+
+.navbarUsername{
+    color: white;
+    font-weight: light;
+}
+
+/* Footer */
+
+.footer{
+    height: 10%;
+    width: 100%;
+    background-color: forestgreen;
+    color: white;
+    border-top: 1px solid black;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fa{
+    font-size: 1.5em;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+}
+  
+.fa-github{
+	color: white;
+}
+
+.fa-github:hover{
+    color: black;
+    text-decoration: none;
+}
+
+/* Initial Index Page */
+
+.initialStage{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+}
+
+.userStuff{
+    text-align: center;
+    padding: 5px;
+}
+
+.userStuff a{
+    color:forestgreen;
+}
+
+.userStuff a:hover{
+    color: black;
+    text-decoration: none;
+}
+
+/* Week Index Page */
+
+.weekCards{
+    position: relative;
+    width: 60%;
+    clear: both;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.row{
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.card{
+    width: 10rem;
+    text-align: center;
+    margin: 10px;
+    border: 1px solid forestgreen;
+}
+
+.card-link{
+    display: block;
+    color: forestgreen;
+}
+
+
+.card-link:hover{
+    color:black;
+    text-decoration: none;
+}
+
+/* Authentication Forms */
+
+.error{
+    text-align:center;
+    font-size: 2rem;
+}
+
+.authenticationForm{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align:center;
+    width: 25%;
+    clear: both;
+}
+
+.authenticationForm br{
+    content: "";
+    margin: 2em;
+    display: block;
+    font-size: 60%;
+}
+
+.authenticationForm label{
+    width: 50%;
+    clear: both; clear: both;
+    color: forestgreen;
+    margin:0;
+    min-width: 200px;
+}
+
+.authenticationForm input{
+    width: 70%;
+    clear: both;
+    margin:0;
+    min-width: 200px;
+    border: 1px solid forestgreen;
+}
+
+.authenticationForm input::placeholder{
+    text-align: center;
+}
+
+.authenticationForm input[type="submit"]{
+    width: 40%;
+    clear: both;
+    background-color: forestgreen;
+    color: white;
+    border: 1px solid black;
+}
+
+/* Exercise Forms */
+
+.temporaryFormDisplay{
+    text-align: center;
+    font-size: 2rem;
+    position: relative;
+    font-weight: bold;
+    margin-bottom: auto;
+    color: forestgreen;
+}
+
+.exerciseForm{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align:center;
+    width: 25%;
+    clear: both;
+    /* display: none; */
+}
+
+.exerciseForm br{
+    content: "";
+    margin: 2em;
+    display: block;
+    font-size: 60%;
+}
+
+.exerciseForm label{
+    width: 50%;
+    clear: both; clear: both;
+    color: forestgreen;
+    margin:0;
+}
+
+.exerciseForm input{
+    width: 70%;
+    clear: both;
+    margin:0;
+    border: 1px solid forestgreen;
+}
+
+.exerciseForm input::placeholder{
+    text-align: center;
+ }
+
+.exerciseForm input[type="submit"]{
+    width: 50%;
+    clear: both;
+    background-color: forestgreen;
+    color: white;
+    border: 1px solid black;
+}
+
+/* Selected Day's Page */
+
+.specialDay{
+    position: relative;
+    margin: auto auto;
+    text-align:center;
+    width: 60%;
+    clear: both;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+
+.specialDay br{
+    content: "";
+    margin: 2em;
+    display: block;
+    font-size: 15%;
+}
+
+.dayTable{
+    table-layout: fixed;
+    margin: auto auto;
+    display: relative;
+    clear: both;
+    height: auto;
+    text-align: center;
+}
+
+.dayTable td, .dayTable th, .dayTable .buttonCell{
+    overflow: hidden;
+    white-space: nowrap;
+    padding:5px;
+    width: 20%;
+    padding: 10px;
+    text-align: center;
+}
+
+.regularCell{
+    clear: both;
+    border-top: black 1px solid;
+}
+
+.dayButtonContainer{
+    bottom: 50px;
+    margin-bottom: 15px;
+}
+
+.dayButtonContainer button{
+    width: 100%;
+    clear: both;
+    background-color: forestgreen;
+    color: white;
+}
+
+.specialButtonContainer{
+    bottom: 50px;
+    margin: auto auto;
+}
+
+.specialButtonContainer button{
+    width: 100%;
+    clear: both;
+    background-color: forestgreen;
+    color: white;
+}
+
+/* Error Page's Styling */
+
+.errorPage{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+}
+
+.genericError, .indexLink{
+    text-align: center;
+    padding: 5px;
+}
+
+.indexLink a{
+    color:forestgreen;
+}
+
+.indexLink a:hover{
+    color: black;
+    text-decoration: none;
+}
+
+/* Exercise Database */
+
+.databaseContainer{
+    position: relative;
+    margin: auto auto;
+    text-align: center;
+    clear: both;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+
+.temporaryExercisesDisplay{
+    text-align: center;
+    font-size: 2.5rem;
+    position: relative;
+    font-weight: bold;
+    margin: auto auto;
+    color: forestgreen;
+    /* font-style: italic; */
+}
+
+.exercisesDisclaimer{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    display: none;
+}
+
+.exercisesDisclaimer a{
+    color:forestgreen;
+}
+
+.exercisesDisclaimer a:hover{
+    color: black;
+    text-decoration: none;
+}
+
+.selectionContainer{
+    display: none;
+}
+
+.buttonContainer{
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    position: relative;
+    margin: auto auto;
+    width: 60%;
+    /* display: none; */
+}
+
+.buttonContainer input{
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+.buttonContainer input::placeholder{
+    text-align: center;
+}
+
+.filterContainer{
+    text-align: center;
+    font-size: 1rem;
+    margin-bottom: 30px;
+    position: relative;
+    margin: auto auto;
+    /* display: none; */
+}
+
+.filterContainer input{
+    margin-bottom: 20px;
+    clear: both;
+    background-color: forestgreen;
+    color: white;
+    border: 1px solid black;
+}
+
+.exercisesTable{
+    table-layout: fixed;
+    margin: auto auto;
+    display: relative;
+    clear: both;
+    height: auto;
+    text-align: center;
+    font-size: 0.8rem;
+    width: 80%;
+    margin-bottom: 30px;
+}
+
+.exercisesTable td, .exercisesTable th, .exercisesTable .buttonCell{
+    padding: 10px;
+    text-align: center;
+    border: 1px solid black;
+    overflow: hidden;
+}
+
+.exercisesTable ul{
+    list-style-type: none;
+}

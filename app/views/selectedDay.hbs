@@ -1,0 +1,40 @@
+<div class="specialDay">
+    {{#if exercisesList}}
+        <div class="dayTable">
+            <table>
+                <tr>
+                    <th>NAME</th>
+                    <th>WEIGHT (KG)</th>
+                    <th>SETS</th>
+                    <th>REPS</th>
+                </tr>
+
+                {{#each exercisesList}}
+                    <tr>
+                        <td class="regularCell">{{ name }}</td>
+                        <td class="regularCell">{{ weight }}</td>
+                        <td class="regularCell">{{ sets }}</td>
+                        <td class="regularCell">{{ reps }}</td>
+
+                        <td class="buttonCell"><form method="GET" action="/editexercise/{{slug}}"><button><input type="hidden" name="requiredExercise" value="{{ _id }}">UPDATE</input></button></form></td>
+                        <td class="buttonCell"><form method="POST" action=""><button><input type="hidden" name="deletedExercise" value="{{ _id }}">DELETE</input></button></form></td>
+                    </tr>
+                {{/each}}
+            </table>
+        </div>
+        
+        <br>
+
+        <div class="dayButtonContainer">
+            <a href="/{{ day }}/add">
+            <button>ADD NEW EXERCISE</button>
+            </a>
+        </div>
+    {{else}}
+        <div class="specialButtonContainer">
+            <a href="/{{ day }}/add">
+                <button>ADD NEW EXERCISE</button>
+            </a>
+        </div>
+    {{/if}}
+</div>
