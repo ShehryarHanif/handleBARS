@@ -1,8 +1,5 @@
 # handleBARS: Your Personalized Fitness Tracker
 
-## Deployed Website
-
-Press [here](https://handlebars-fitness-tracker.herokuapp.com/) to go to the deployed website.
 ## Main File
 
 Press [here](./app.js) to check the main file for the application.
