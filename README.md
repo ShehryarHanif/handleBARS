@@ -152,3 +152,21 @@ Here is a screenshot of the sitemap I made on the website:
 15. [Flash Messages for Authentication](https://www.npmjs.com/package/connect-flash) - <code>[Express Application using Relevant Middleware](./app.js)</code>
 16. [Function for DOM Manipulation](https://eloquentjavascript.net/14_dom.html#c_Mnkp5ioh9C) - <code>[DOM Manipulation Script](/app/public/javascripts/database.js)</code>
 17. [Input with Text Input and Dropdown Options](https://stackoverflow.com/questions/5650457/html-select-form-with-option-to-enter-custom-value/23902304) - <code>[Exercise Edit Page](/app/views/exerciseAdd.hbs), [Exercise Update Page](/app/views/exerciseUpdate.hbs)</code>
+
+1. [Passport.js Documentation](http://passportjs.org/docs) - <code>[Express Application using Passport](./app.js)</code>
+2. [Bootstrap 4 Documentation](https://getbootstrap.com/docs/4.0/getting-started/introduction/) - <code>[Navigation Bar](./app/views/layout.hbs) (Among Other Usage)</code>
+3. [Express Routers Documentation](https://www.tutorialspoint.com/how-to-use-express-router) -  <code>"[authenticationRoutes.js](./app/routes/authenticationRoutes.js)", "[databaseRoutes.js](./app/routes/databaseRoutes.js)", "[dayRoutes.js](./app/routes/dayRoutes.js)", "[exerciseAddRoutes.js](./app/routes/exerciseAddRoutes.js)", and "[exerciseEditRoutes.js](./app/routes/exerciseEditRoutes.js)"</code>
+4. [MongoDB Reference](https://docs.mongodb.com/manual/reference/method/) - <code>Various Routes in Application (e.g., One in "[authenticationRoutes.js](./app/routes/authenticationRoutes.js)")</code>
+5. [Mongoose CRUD Operations](https://coursework.vschool.io/mongoose-crud/) - <code>Various Routes in Application (e.g., One in "[exerciseEditRoutes.js](./app/routes/exerciseEditRoutes.js)")</code>
+6. [Heroku's Deployment Guide](https://devcenter.heroku.com/articles/deploying-nodejs) - <code>[Deployed Website](https://handlebars-fitness-tracker.herokuapp.com/)</code>
+7. [Dropdown Selection in HTML Form](https://stackoverflow.com/questions/10142643/easy-way-to-add-drop-down-menu-with-1-100-without-doing-100-different-options) - <code>[Exercise Edit Page](/app/views/exerciseAdd.hbs), [Exercise Update Page](/app/views/exerciseUpdate.hbs)</code>
+8. [Input Button with Hidden Value](https://stackoverflow.com/questions/30261978/html-submit-value-based-on-which-button-is-clicked) - <code>[Any Day's Exercise Page](/app/views/selectedDay.hbs)</code>
+9. [Creation of MongoDB ID Object](https://stackoverflow.com/questions/17899750/how-can-i-generate-an-objectid-with-mongoose) - <code>[Querying with ObjectID](./app/routes/dayRoutes.js)</code>
+10. [Grid of Cards](https://stackoverflow.com/questions/48639792/bootstrap-4-cards-as-grid-with-the-same-height-and-width) - <code>[Index Page with Cards](/app/views/index.hbs)</code>
+12. [Exercises API](https://wger.de/en/software/api) - <code>[Exercises Database](/app/public/javascripts/database.js), [Exercises List](/app/public/javascripts/database.js)</code>
+12. [MongoDB Session Store](https://www.npmjs.com/package/connect-mongodb-session) - <code>[Express Application using Special Session Store](./app.js)</code>
+13. [Adjustment of Breakline Size](https://stackoverflow.com/questions/7614928/change-br-height-using-css) - <code>[Main Stylesheet](./app/public/css/style.css)</code>
+14. [Fixes for Mongoose Deprecation Warnings](https://mongoosejs.com/docs/deprecations.html) - <code>[Relevant Flags Added to MongoDB Application](./app.js)</code>
+15. [Flash Messages for Authentication](https://www.npmjs.com/package/connect-flash) - <code>[Express Application using Relevant Middleware](./app.js)</code>
+16. [Function for DOM Manipulation](https://eloquentjavascript.net/14_dom.html#c_Mnkp5ioh9C) - <code>[DOM Manipulation Script](/app/public/javascripts/database.js)</code>
+17. [Input with Text Input and Dropdown Options](https://stackoverflow.com/questions/5650457/html-select-form-with-option-to-enter-custom-value/23902304) - <code>[Exercise Edit Page](/app/views/exerciseAdd.hbs), [Exercise Update Page](/app/views/exerciseUpdate.hbs)</code>
